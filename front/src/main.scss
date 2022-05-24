@@ -1,0 +1,10 @@
+@import './components/styles/variables.scss';
+@import "/node_modules/normalize-scss/sass/normalize/import-now";
+@include normalize();
+@import "~bootstrap/scss/bootstrap";
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: $bgc;
+}
