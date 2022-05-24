@@ -2,18 +2,18 @@
 
 .bookCard{
     p{
-        margin-bottom: 0px;
+        margin: 10px 0px 10px 10px;
         text-align: left;
-        margin-left: 10px;
     }
     &__name{
         color:$textWhite;
     }
     &__author{
         color:$textWhite;
+        font-size: 12px;
     }
     button{
-        font-size: 10px;
+        font-size: 14px;
         height: 35px;
         border-radius: 45px;
     }

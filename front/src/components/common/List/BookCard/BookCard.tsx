@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import Button from '../../Button/Button'
 import style from './BookCard.module.scss'
 
@@ -14,7 +14,7 @@ const BookCard: FC<BookType> = ({ imgUrl, name, author }) => {
             <img src={imgUrl} alt="" />
             <p className={style.bookCard__name}>{name}</p>
             <p className={style.bookCard__author}>{author}</p>
-            <Button text="Add to your collection" />
+            <Button text="Add" />
         </div>
     )
 }
