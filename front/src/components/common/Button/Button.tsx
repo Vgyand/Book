@@ -2,13 +2,13 @@ import { FC } from 'react'
 import style from './Button.module.scss'
 
 type ButtonType = {
-    name: string
+    text: string
 }
 
-const Button: FC<ButtonType> = ({ name }) => {
+const Button: FC<ButtonType> = ({ text }) => {
     return (
         <div>
-            <button className={style.btn} type="button">{name}</button>
+            <button className={style.btn} type="button">{text}</button>
         </div>
 
     )

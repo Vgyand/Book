@@ -1,0 +1,11 @@
+@import "../../styles/variables.scss";
+
+.popular{
+    &__title{
+        text-align: left;
+        color: $textWhite;
+    }
+    &__list{
+        display: flex;
+    }
+}
