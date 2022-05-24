@@ -1,5 +1,4 @@
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import './App.css';
 import { useId } from 'react';
 import { dataRoutes } from './dataRoutes';
 
@@ -13,7 +12,6 @@ const App = () => {
         </Routes>
       </div>
     </BrowserRouter>
-
   );
 };
 

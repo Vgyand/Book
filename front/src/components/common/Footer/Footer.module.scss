@@ -1,0 +1,23 @@
+@import "../../styles/variables.scss";
+.footer{
+    height: 300px;
+    &__line{
+        color: $success;
+    }
+    &__item{
+        &_list{
+            padding-left: 0px;
+            list-style: none;
+        }
+    }
+    &__logoNsoc{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 260px;
+    }
+    &__socials img:not(:last-child){
+        margin-right: 10px;
+    }
+    
+}
