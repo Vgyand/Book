@@ -3,13 +3,13 @@
 .banner{
     margin-top: 34px;
     &__content{
-
+        height: 330px;
     }
     &__bestBooks{
         display: flex;
         justify-content: center;
         &_wrapper{
-            width: 200px;
+            width: 250px;
             height: 100%;
             background-color: #0B0E1A;
         }
@@ -17,9 +17,43 @@
             background-color: $success;
             margin: 5px;
             color: $textWhite;
+            height: 45px;
+            align-items: center;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 10px;
+        }
+        
+        &_content{
+            padding-left: 10px;
+            li{
+                margin-bottom: 10px;
+                float: left;
+                list-style: none;
+                color: $textWhite;
+                font-size: 14px;
+                text-align: left;
+            }
         }
     }
     &__mood{
-        background-color: red;
+        &_title{
+            color: $textWhite;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        &_emotion{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: space-around;
+            text-align: center;
+            align-items: center;
+            margin: 0 auto;
+            img{
+                margin: 0 auto;
+                width: 80px;
+                height: 80px;
+            }
+        }
     }
 }
