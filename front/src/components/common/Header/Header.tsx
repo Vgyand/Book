@@ -36,7 +36,10 @@ const Header = () => {
                         </li>
                     </ul>
                 </nav>
-                <Button text="SignIN" />
+                <Link to="/authorization">
+                    <Button text="SignIN" />
+                </Link>
+
             </div>
         </div>
 
